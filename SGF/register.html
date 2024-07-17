@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body class="body-form">
+    <form class='register-form'>
+        <h1>Registro</h1>
+        <div class='input-box'>
+          <FaUser class='icon'/>
+          <input type="text" id='nombres' placeholder='Nombres' required/>
+        </div>
+        <div class='input-box'>
+          <MdEmail class='icon' />
+          <input type="email" id='email' placeholder='Correo' required/>
+        </div>
+        <div class='input-box'>
+          <RiLockPasswordLine class='icon'/>
+          <input type="password" id='contraseña' placeholder='Contraseña' required/>
+        </div>
+        <button type='submit'>Registrarse</button>
+        <div class='register-link'>
+          <p>Ya tienes una Cuenta?<a href="/login.html"> Ingresar</a></p>
+        </div>
+      </form>
+</body>
+</html>
